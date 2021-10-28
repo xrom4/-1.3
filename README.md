@@ -37,20 +37,14 @@
     print("B четно: ", b1)
     print("У чисел A и B одинаковая четность: ", x)
    
-## Task 4(11) Three numbers are given. Find the smallest of them.
+## Task 4(11) Two integer type variables are given: A and B. If their values are not equal, thenassign each variable the greater of these values, and if they are equal,then assign zero values to the variables. Output new values of variables A and B.
 
-     import random
-      A = random.randrange(-30,30)
-     B = random.randrange(-30,30)
-     C = random.randrange(-30,30)
-     print("Число A:", A)
-     print("Число B:", B)
-     print("Число C:", C)
-     if A < B:
-     mn = A
-      else:
-      mn = B
-    if mn > C:
-        mn = C
-    print()    
-     print("Минимум:", mn)
+    A = int(input())
+B = int(input())
+if A != B:
+A = B = max(A, B)
+print (A, B)
+else:
+A = B = 0
+print (A, B)
+
