@@ -37,7 +37,7 @@
     print("B четно: ", b1)
     print("У чисел A и B одинаковая четность: ", x)
    
-## Task 4(11) Two integer type variables are given: A and B. If their values are not equal, then assign each variable the greater of these values, and if they are equal,then assign zero values to the variables. Output new values of variables A and B
+## Task 4(11) Three numbers are given. Find the smallest of them.
 
      import random
       A = random.randrange(-30,30)
